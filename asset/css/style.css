@@ -1,0 +1,186 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Julius Sans One', sans-serif;
+	font-style:italic;
+	/* color:black; */
+}
+
+.logo{
+height:125px; 
+	
+}
+
+.cname{
+	/*border-style:solid*/
+	text-align:center;
+	height:125px;
+	padding-top:40px;
+	font-size:40px;
+	font-weight:bold; 
+	background-color:#32CD32;
+	color:black;
+	
+
+}
+.menu{
+	
+	/* border-style:solid; */
+	margin-top:10px;
+	height:50px;
+	text-align:center;
+	padding-top:12px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#32CD32;
+	
+}
+.menu a{
+	text-decoration:none;
+	color:black;
+	display:block;/*to convert entire block into link*/
+}
+
+.banner{
+	margin-top:10px;
+}
+.section{
+	/* border-style:solid; */
+	height:50px;
+	text-align:center;
+	padding-top:10px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#32CD32;
+	color:black;
+	margin-top:10px;
+}
+.about{
+	margin-top:10px;
+	text-align:justify;
+	color: black;
+}
+.service{
+	 text-align:justify; 
+	box-shadow:0px 0px 8px 5px #CAC7C7;
+	padding: 5px;
+	transition-property:transform;
+	transition-duration:3s;
+	margin-top:20px;
+	
+}
+
+	
+
+
+.service:hover{
+	
+	transform:scale(1.1);
+	
+}
+.contact{
+	/* margin:10px; */
+	margin-top:10px;
+}
+.footermain{
+	background-color:#32CD32;
+	margin-top:10px;
+	box-sizing:border-box;
+	text-align:justify;
+}
+
+#whatsapp{
+	position:fixed;
+	right:30px;
+	bottom:100px;
+}
+
+#phone {
+	position:fixed;
+	right:30px;
+	bottom:20px;
+}
+
+.class{
+	margin-top:10px;
+	text-align:justify;
+	left:50px;
+}
+
+input [type="submit"]{
+color:Black;
+background-color:#32CD32;
+}
+
+.font{
+	color: #32CD32;
+}
+
+.font:h2{
+	color: #32CD32;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.project{
+	background-color:#32CD32;
+	color:red;
+	padding:10px;
+	font-weight:bold;
+  
+}
+.anim{
+	width:400px;
+	height:50px;
+	background-color:red;
+	/* color:white; */
+	/* text-align:center; */
+	animation-name:myanim;
+	position:relative;
+	animation-duration:5s;
+	animation-iteration-count:infinite;/*n|infinite*/
+}
+.mar{
+	margin:0px;
+		font-weight:bold;
+	
+}
